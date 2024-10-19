@@ -1,0 +1,66 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.28/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.yaml",
+  // "focus_follows_mouse": "",
+  "mouse_follows_focus": false,
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 1,
+  "default_container_padding": 4,
+  "transparency": true,
+  "transparency_alpha": 200,
+  "border": true,
+  "border_implementation":"Windows",
+  "border_width": 4,
+  "border_offset": -1,
+  "border_style":"Square",
+  "border_colours": {
+    "single": "#f5ec42",
+    "stack": "#00a542",
+    "monocle": "#ff3399",
+    "unfocused": "#808080"
+  },
+  "stackbar": {
+    "height": 40,
+    "mode": "OnStack",
+    "tabs": {
+      "width": 300,
+      "focused_text": "#00a542",
+      "unfocused_text": "#b3b3b3",
+      "background": "#141414"
+    }
+  },
+  "animation": {
+    "duration": 100,
+    "enabled": true,
+    "fps": 120,
+    "style": "Linear"
+  },
+  "bar_configurations": [
+    "$Env:KOMOREBI_CONFIG_HOME/biremoko.bar.json"
+  ],
+  "display_index_preferences": {
+    "0": "HAT2380-7&27977f74&1&UID268",
+    "1": "BNQ7FB7-7&27977f74&1&UID264"
+  },
+  "monitors": [
+    {
+      "workspaces": [
+        { "name": "I", "layout": "BSP" },
+        { "name": "II", "layout": "BSP" },
+        { "name": "III", "layout": "BSP" },
+        { "name": "IV", "layout": "BSP" },
+        { "name": "V" }
+      ]
+    },
+    {
+      "workspaces": [
+        { "name": "壱", "layout": "BSP" },
+        { "name": "弐", "layout": "BSP" },
+        { "name": "参", "layout": "BSP" },
+        { "name": "肆", "layout": "BSP" },
+        { "name": "伍" }
+      ]
+    }
+  ]
+}
